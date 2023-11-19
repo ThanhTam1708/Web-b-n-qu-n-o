@@ -1,0 +1,10 @@
+﻿[*.{cs,vb}]
+
+# IDE0047: Remove unnecessary parentheses
+dotnet_diagnostic.IDE0047.severity = none
+
+# IDE0046: Convert to conditional expression
+dotnet_diagnostic.IDE0046.severity = none
+
+# IDE0008: Use explicit type
+csharp_style_var_for_built_in_types = true
